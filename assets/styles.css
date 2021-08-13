@@ -1,0 +1,44 @@
+* {
+     box-sizing: border-box;
+     border: 0 solid;
+     margin: 0;
+}
+
+
+
+header {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: flex-start;
+     align-content: flex-start;
+     align-items: center;
+     width: 100%;
+     height: auto;
+     padding: 20px;
+     background-color: lightblue;
+     margin: auto;
+}
+h1 {
+     flex: 1 0 auto;
+     margin-right: 10vh;
+}
+/* nav {
+     flex-basis: auto;
+} */
+
+.wrapper {
+     display: flex;
+     flex-flow: row wrap;
+     margin-left: 40px;
+}
+h3 {
+     flex: 1 0 auto;
+     padding: 20px;
+     text-decoration: underline;
+     line-height: 1.5;
+}
+h3:hover {
+     text-decoration: none;
+     font-size: 150%;
+     cursor: grab;
+}
