@@ -18,10 +18,13 @@ header {
      background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgb(143, 193, 211));
      margin: auto;
 }
-h1 {
+
+#nametag {
+     font-family: 'Syne Mono', monospace;
+     font-style: italic;
+     font-size: 40px;
      flex: 1 0 auto;
-     margin-right: 10vh;
-     margin-bottom: 25px;
+     margin-left: 17%;
 }
 
 .nav-wrap {
@@ -37,9 +40,10 @@ h1 {
 h3 {
      flex: 1 0 auto;
      padding: 20px;
-     text-decoration: underline;
+     text-decoration: overline;
      line-height: 1.5;
-     text-shadow: 2px 2px 4px whitesmoke;
+     text-shadow: 2px 2px 10px whitesmoke;
+     font-family: monospace;
 }
 h3:hover {
      text-decoration: none;
@@ -150,6 +154,7 @@ h3:hover {
 
 .vertical-text {
      margin-right: -20px;
+     font-family: 'Syne Mono', monospace;
 }
 
 .about-me {
@@ -157,11 +162,17 @@ h3:hover {
 }
 
 .my-work {
-     height: 700px;
+     height: 900px;
 }
 
 .contact {
      height: 200px;
+}
+
+.contact-format {
+     text-decoration: none;
+     color: inherit;
+     font-size: 20px;
 }
 
 .font-form1 {
