@@ -15,7 +15,7 @@ header {
      width: 100%;
      height: auto;
      padding: 20px;
-     background-color: rgb(217, 245, 255);
+     background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgb(143, 193, 211));
      margin: auto;
 }
 h1 {
@@ -79,20 +79,40 @@ h3:hover {
 
 .section-descr {
      flex: 1 0 16%;
-     padding: 20px;
-     align-content: flex-end;
+     padding: 30px;
+     text-align: right;
 }
 
 .section-content {
      flex: 1 0 84%;
      border-left: 5px solid black;
      margin: 20px 0;
+     padding: 20px;
+}
+#project-wrapper {
+     display: flex;
+     flex-flow: row wrap;
+     height: 100%;
+}
+#project-large {
+     flex: 0 1 100%;
+     height: 50%;
+     padding: 20px;
+}
+
+.project-small {
+     flex: 0 1 50%;
+     padding: 20px;
+     height: 25%;
+}
+
+.project-img {
+     position: relative;
+
 }
 
 .vertical-text {
-     writing-mode: tb-rl;
-     transform: rotate(-180deg);
-     text-align: right;
+     margin-right: -20px;
 }
 
 .about-me {
@@ -105,4 +125,40 @@ h3:hover {
 
 .contact {
      height: 200px;
+}
+
+.font-form1 {
+     font-family: 'Rubik', sans-serif;
+     font-size: larger;
+}
+
+@media screen and (max-width: 800px) {
+     .wrapper {
+          flex-flow: column wrap;
+          align-items: flex-start;
+     }
+
+     #project-wrapper {
+          flex-flow: column wrap;
+     }
+
+     .section-content {
+          border-bottom: 3px solid black;
+          border-left: none;
+          width: 100%;
+          margin-top: 5px;
+     }
+
+     .vertical-text {
+          bottom: -10px;
+     }
+
+     .section-descr {
+          margin-top: 50px;
+     }
+
+     #subtitle {
+          left: 80%;
+          top: 80%;
+     }
 }
