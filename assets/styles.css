@@ -201,7 +201,7 @@ h3:hover {
           margin-top: 5px;
           flex: 0 1 auto;
      }
-     
+
      #project-large {
           border: 2px solid rgb(143, 193, 211);
           flex: 2 1 auto;
@@ -227,5 +227,13 @@ h3:hover {
 
      .contact-border {
           border-bottom: 0;
+     }
+
+     #selfie {
+          display: none;
+     }
+
+     #subtitle {
+          display: none;
      }
 }
