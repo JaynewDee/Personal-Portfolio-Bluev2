@@ -59,7 +59,7 @@ h3:hover {
 #waves {
      position: relative;
      width: 100%;
-     height: 180px;
+     height: 100px;
      object-fit: cover;
 }
 
@@ -96,7 +96,7 @@ h3:hover {
 .section-content {
      flex: 1 0 84%;
      border-left: 5px solid black;
-     margin: 20px 0;
+     margin: 20px 0 0;
      padding: 20px;
 }
 #project-wrapper {
@@ -105,7 +105,7 @@ h3:hover {
      height: 100%;
 }
 #project-large {
-     flex: 0 2 100%;
+     flex: 0 2 80%;
      height: 50%;
      padding: 20px;
      background-image: url(./images/fabrizio-conti-0A6n1ipnt18-unsplash.jpg);
@@ -113,20 +113,23 @@ h3:hover {
      background-size: cover;
      border: 10px solid rgb(143, 193, 211);
      position: relative;
+     margin: 5px;
 
 }
+
+.project-small {
+     flex: 0 2 40%;
+     padding: 20px;
+     height: 25%;
+     border: 10px solid rgb(143, 193, 211);
+     margin: 5px;
+     position: relative;
+}
+
 .hover-border:hover {
      box-shadow: 1px 0px 10px 5px rgba(28, 85, 131, 0.75);
 }
 
-.project-small {
-     flex: 0 2 50%;
-     padding: 20px;
-     height: 25%;
-     border: 10px solid rgb(143, 193, 211);
-     margin: auto;
-     position: relative;
-}
 #sm-img-1 {
      background-image: url(./images/georgy-trofimov-qhd79HGRxDY-unsplash.jpg);
      object-fit: contain;
@@ -178,18 +181,23 @@ h3:hover {
 .font-form1 {
      font-family: 'Rubik', sans-serif;
      font-size: larger;
+     line-height: 1.7;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 780px) {
      
      
+     .realign-wrapper {
+          display: flex;
+     }
+
      .wrapper {
           flex-flow: column nowrap;
-          align-items: flex-start;
+          align-items: center;
      }
 
      #project-wrapper {
-          flex-flow: column nowrap;
+          flex-flow: column wrap;
           margin-bottom: 20%;
           height: 100vh;
      }
@@ -236,4 +244,23 @@ h3:hover {
      #subtitle {
           display: none;
      }
+
+     .contact-format {
+          flex-flow: row nowrap;
+          margin: auto;
+          justify-content: center;
+          align-items: center;
+          flex: 0 1 100%;
+     }
+
+     .about-realign {
+          display: flex;
+          align-content: center;
+          margin: auto;
+
+     }
+}
+
+@media screen and (max-width: 780px) {
+
 }
