@@ -13,7 +13,9 @@
   
   > - Exchange photo of site owner with one more professional / recent.
   > - Improve styling code to better support alignment of site elements, such as navigation bar links, at different viewports (particularly mobile).
-  > - Compress image files to allow for more efficient loading and population of page.
+  > - &#10004;Compress image files to allow for more efficient loading and population of page. 
   > - Extensively refine styling codebase and /* comment */ supplementation to support scouting / best practices in code elegance.
+  > - &#10004;Add links to professional resources
+  > - Add click-through links to deployed projects
   > - And many more quality improvements to come!
   > - 
