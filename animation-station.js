@@ -10,17 +10,11 @@ window.addEventListener('load', (event) => {
      let stopper = properNoun.style.opacity;
      console.log(stopper)
      function frame() {
-          if (position < 120) {
+          if (position < 175) {
                position++;
                $('#nametag').css({'margin-left': `${speed}px`, 'opacity': `${fade}`});
-               fade += 1/100;
+               fade += 1/200;
                speed++;}  
 
-
-               // else if (stopper == 1) {
-          //      properNoun.style.margin = auto;
-          //      // clearInterval(clear);
-          //      return;
-          // }
-     }
-})
+          
+}})
