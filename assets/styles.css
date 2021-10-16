@@ -5,7 +5,6 @@
 }
 
 
-
 header {
      display: flex;
      flex-flow: row wrap;
@@ -24,7 +23,7 @@ header {
      font-style: italic;
      font-size: 40px;
      flex: 1 0 auto;
-     margin-left: 17%;
+     margin-left: -117%;
 }
 
 .nav-wrap {
@@ -66,9 +65,10 @@ h3:hover {
 #selfie {
      z-index: 1;
      position: absolute;
-     height: 160px;
-     border-radius: 0 20% 20% 0;
-     top: -35px;
+     height: 130px;
+     border-radius: 0 0 40% 0;
+     top: -110px;
+     left: -16px;
      box-shadow: 7px 15px 10px white;
 }
 
@@ -121,7 +121,7 @@ h3:hover {
      height: 50px;
      width: 100px;
      background-color: whitesmoke;
-     border-radius: 2px;
+     border-radius: 4px;
      box-shadow: 4px 5px 6px rgb(192, 221, 231);
      color: rgba(28, 85, 131, 0.75);
      text-align: center;
@@ -133,10 +133,31 @@ h3:hover {
      font-size:larger;
      line-height: 1.0;
      margin: 5px 0 0 5px;
+     
+}
+
+@keyframes pulse {
+     0% {
+          background-color: rgba(29, 140, 180, 1);
+          border-radius: 2px;
+     }
+     50% {
+          background-color: rgba(255, 255, 255, 1);
+          border-radius: 15px;
+     }
+     100% {
+          background-color: rgba(29, 140, 180, 1);
+          border-radius: 2px;
+     }
 }
 
 .thumbnail:hover {
+     animation: pulse 5s infinite;
      box-shadow: 1px 0px 10px 5px rgba(28, 85, 131, 0.75);
+}
+
+.thumbnail:active {
+     background-color: white;
 }
 
 .hint-hide {
@@ -146,7 +167,7 @@ h3:hover {
 .hint:hover .hint-hide {
      display: inline;
      color: white;
-     background-color: rgba(28, 85, 131, 0.75);
+     background-color: rgba(24, 151, 255, 0.75);
      padding: 7px;
      cursor: crosshair;
 }
@@ -220,11 +241,22 @@ h3:hover {
      line-height: 1.7;
 }
 
-@media screen and (max-width: 780px) {
-     
-     
-     .realign-wrapper {
-          display: flex;
+@media screen and (max-width: 900px) {
+     header {
+          padding-bottom: 0;
+          align-content: center;
+     }
+     .nav-wrap {
+          margin-left: 0px;
+          margin-top: 10px;
+     }
+
+     .hint:hover {
+          text-align: center;
+     }
+
+     #nametag {
+          margin-bottom: 15px;
      }
 
      .wrapper {
@@ -292,7 +324,7 @@ h3:hover {
      .about-realign {
           display: flex;
           align-content: center;
-          margin: auto;
+          margin: auto auto 50px;
 
      }
 }
