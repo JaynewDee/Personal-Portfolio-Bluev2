@@ -18,4 +18,7 @@
   > - &#10004;Add links to professional resources
   > - &#10004;Add click-through links to deployed projects
   > - And many more quality improvements to come!
-  > - 
+  > -   
+
+  ### v1.0 Preview:
+  ![Portfolio v1.0 Demo](/assets/README-assets/port-demo.gif)
