@@ -64,7 +64,7 @@ h3:hover {
      object-fit: cover;
 }
 
-#selfie {
+/* #selfie {
      z-index: 1;
      position: absolute;
      height: 200px;
@@ -72,7 +72,7 @@ h3:hover {
      border-radius: 0 0 40% 0;
      top: -105px;
      box-shadow: 7px 15px 10px white;
-}
+} */
 
 #subtitle {
      position: absolute;
@@ -294,7 +294,7 @@ h3:hover {
      #project-wrapper {
           flex-flow: column wrap;
           margin-bottom: 20%;
-          height: 50vh;
+          height: 100vh;
      }
 
      .section-content {
@@ -368,14 +368,11 @@ h3:hover {
           font-size: 24px;
      }
      h3 {
-          padding: 2px 50px 2px 50px;
+          padding: 3px 200px 3px 10px;;
      }
 }
 
 @media screen and (max-width: 430px) {
-     h3 {
-          padding: 3px 200px 3px 10px;
-     }
      .nav-wrap {
           margin-left: 5px;
      }
