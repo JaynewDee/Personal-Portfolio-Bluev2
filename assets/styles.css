@@ -66,10 +66,10 @@ h3:hover {
 #selfie {
      z-index: 1;
      position: absolute;
-     height: 130px;
+     height: 200px;
+     width: 160px;
      border-radius: 0 0 40% 0;
-     top: -110px;
-     left: -16px;
+     top: -105px;
      box-shadow: 7px 15px 10px white;
 }
 
@@ -81,6 +81,9 @@ h3:hover {
      font-style: italic;
 }
 
+#vertbar-hide {
+     display: none;
+}
 .wrapper {
      display: flex;
      flex-flow: row wrap;
@@ -248,6 +251,9 @@ h3:hover {
 }
 
 @media screen and (max-width: 900px) {
+     #vertbar-hide {
+          display: inline;
+     }
      header {
           padding-bottom: 0;
           align-content: center;
