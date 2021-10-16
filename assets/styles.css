@@ -23,7 +23,8 @@ header {
      font-style: italic;
      font-size: 40px;
      flex: 1 0 auto;
-     margin-left: -117%;
+     margin-left: 0;
+     opacity: 0;
 }
 
 .nav-wrap {
@@ -164,12 +165,17 @@ h3:hover {
      display: none;
 }
 
+.hint {
+     padding: 5px;
+}
+
 .hint:hover .hint-hide {
      display: inline;
      color: white;
      background-color: rgba(24, 151, 255, 0.75);
-     padding: 7px;
      cursor: crosshair;
+     line-height: 2;
+     padding: 5px;
 }
 .mini-aligner {
      padding-top: 15px;
@@ -326,6 +332,10 @@ h3:hover {
           align-content: center;
           margin: auto auto 50px;
 
+     }
+
+     .banner-img {
+          margin-bottom: 0;
      }
 }
 

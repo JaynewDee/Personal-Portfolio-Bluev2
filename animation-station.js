@@ -1,19 +1,19 @@
 const properNoun = document.getElementById('nametag');
 
 window.addEventListener('load', (event) => {
-     setInterval(frame, 15);
+     setInterval(frame, 13);
      let pos = 0;
      let speed = 0;
-     let fade = 1;
+     let fade = 0.0;
      function frame() {
-          if (pos == 180) {
-               return;
-          } else {
+          
+          if (pos < 180) {
                pos++;
-               properNoun.setAttribute('style', `margin-left: ${speed}px`)
-               // properNoun.setAttribute('style', `opacity: ${fade}`);
-               // fade - (1/10);
+               $('#nametag').css({'margin-left': `${speed}px`, 'opacity': `${fade}`});
+               fade += 1/200;
                speed++;
+          } else {
+               return;
           }
      }
 })
