@@ -121,7 +121,6 @@ h3:hover {
 
 }
 .thumbnail {
-     box-sizing: border-box;
      height: 50px;
      width: 100px;
      background-color: whitesmoke;
@@ -134,7 +133,7 @@ h3:hover {
      opacity: 90%;
      font-family: 'Syne Mono', monospace;
      font-weight: bolder;
-     font-size:larger;
+     font-size: larger;
      line-height: 1.0;
      margin: 5px 0 0 5px;
      
@@ -345,6 +344,8 @@ h3:hover {
      }
 }
 
-@media screen and (max-width: 780px) {
-
+@media screen and (max-width: 600px) {
+     #nametag {
+          left: -200px;
+     }
 }
