@@ -19,11 +19,11 @@ header {
 }
 
 #nametag {
+     display: absolute;
      font-family: 'Syne Mono', monospace;
      font-style: italic;
-     font-size: 40px;
+     font-size: 30px;
      flex: 1 0 auto;
-     margin-left: 0;
      opacity: 0;
 }
 
@@ -37,6 +37,7 @@ header {
      text-decoration: none;
      color: inherit;
 }
+
 h3 {
      flex: 1 0 auto;
      padding: 20px;
@@ -146,7 +147,7 @@ h3:hover {
      }
      50% {
           background-color: rgba(255, 255, 255, 1);
-          border-radius: 15px;
+          border-radius: 10px;
      }
      100% {
           background-color: rgba(29, 140, 180, 1);
@@ -258,7 +259,6 @@ h3:hover {
           align-content: center;
      }
      .nav-wrap {
-          margin-left: 0px;
           margin-top: 10px;
      }
 
@@ -278,7 +278,7 @@ h3:hover {
      #project-wrapper {
           flex-flow: column wrap;
           margin-bottom: 20%;
-          height: 100vh;
+          height: 30vh;
      }
 
      .section-content {
@@ -345,7 +345,13 @@ h3:hover {
 }
 
 @media screen and (max-width: 600px) {
+     #compress {
+          height: 50%;
+     }
      #nametag {
-          left: -200px;
+          font-size: large;
+     }
+     h3 {
+          padding: 2px 50px 2px 50px;
      }
 }
