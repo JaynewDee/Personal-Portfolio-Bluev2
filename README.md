@@ -16,6 +16,6 @@
   > - &#10004;Compress image files to allow for more efficient loading and population of page. 
   > - Extensively refine styling codebase and /* comment */ supplementation to support scouting / best practices in code elegance.
   > - &#10004;Add links to professional resources
-  > - Add click-through links to deployed projects
+  > - &#10004;Add click-through links to deployed projects
   > - And many more quality improvements to come!
   > - 

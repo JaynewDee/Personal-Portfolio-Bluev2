@@ -117,16 +117,41 @@ h3:hover {
 
 }
 .thumbnail {
+     box-sizing: border-box;
      height: 50px;
-     width: 80px;
+     width: 100px;
      background-color: whitesmoke;
-     border-radius: 3px;
+     border-radius: 2px;
      box-shadow: 4px 5px 6px rgb(192, 221, 231);
      color: rgba(28, 85, 131, 0.75);
-     text-align: right;
+     text-align: center;
      text-decoration: none;
      padding: 5px;
      opacity: 90%;
+     font-family: 'Syne Mono', monospace;
+     font-weight: bolder;
+     font-size:larger;
+     line-height: 1.0;
+     margin: 5px 0 0 5px;
+}
+
+.thumbnail:hover {
+     box-shadow: 1px 0px 10px 5px rgba(28, 85, 131, 0.75);
+}
+
+.hint-hide {
+     display: none;
+}
+
+.hint:hover .hint-hide {
+     display: inline;
+     color: white;
+     background-color: rgba(28, 85, 131, 0.75);
+     padding: 7px;
+     cursor: crosshair;
+}
+.mini-aligner {
+     padding-top: 15px;
 }
 .project-small {
      flex: 0 2 40%;
