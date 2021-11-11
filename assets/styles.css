@@ -368,12 +368,15 @@ h3:hover {
           font-size: 24px;
      }
      h3 {
-          padding: 3px 200px 3px 10px;;
+          padding: 3px 200px 3px 10px;
      }
 }
 
 @media screen and (max-width: 430px) {
      .nav-wrap {
           margin-left: 5px;
+     }
+     #waves {
+          height: 15vh;
      }
 }
