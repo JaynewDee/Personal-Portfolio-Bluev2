@@ -10,9 +10,9 @@
   > - "Facebook" link in "About Me" section takes the user to the site owner's primary social media outlet.  
     
 ### Updates Incoming / Revisions Planned  
-### > IMPORTANT NOTE  
-> This version of my portfolio page is soon to be replaced by another project I am currently working on, featuring the popular front-end framework React.js  
-> Stay tuned for Portfolio v3.0!
+### *IMPORTANT NOTE*  
+#### This version of my portfolio page is soon to be replaced by another project I am currently working on, featuring the popular front-end framework React.js  
+#### Stay tuned for Portfolio v3.0!
   
   > - Exchange photo of site owner with one more professional / recent.
   > - Improve styling code to better support alignment of site elements, such as navigation bar links, at different viewports (particularly mobile).
