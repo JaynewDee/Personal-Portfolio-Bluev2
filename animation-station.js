@@ -14,7 +14,7 @@ window.addEventListener('load', (event) => {
                position++;
                $('#nametag').css({'margin-left': `${speed}px`, 'opacity': `${fade}`});
                fade += 1/200;
-               speed++;}  
+               speed++;}
 
           
 }})
