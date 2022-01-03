@@ -1,0 +1,19 @@
+{
+  "name": "personal-portfolio-bluev2",
+  "version": "2.9.0",
+  "description": "[![Developer Portfolio Landing Page](/assets/README-assets/Portfolio-Landing.png)](https://numinousblue.github.io/Personal-Portfolio-Bluev2/)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NuminousBlue/Personal-Portfolio-Bluev2.git"
+  },
+  "author": "Joshua Diehl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NuminousBlue/Personal-Portfolio-Bluev2/issues"
+  },
+  "homepage": "https://github.com/NuminousBlue/Personal-Portfolio-Bluev2#readme"
+}
